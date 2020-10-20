@@ -1,8 +1,7 @@
-```c
 Pod::Spec.new do |spec|
 
-  spec.name         = "CustomRoundedButtonFramework"
-  spec.version      = "0.0.1"
+  spec.name         = "CustomRoundedButtonView"
+  spec.version      = "0.0.2"
   spec.summary      = "Custom rounded corner for your UIView component added dependency."
   spec.description  = "Rounded framework is a library to create custom corner for your UIView component."
 
@@ -23,7 +22,7 @@ Pod::Spec.new do |spec|
   # spec.tvos.deployment_target = "9.0"
 
 	# Replace value of source with your github link
-  spec.source       = { :git => "https://github.com/nabilahashriyah/CustomRoundedFramework", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/nabilahashriyah/CustomRoundedFramework.git", :tag => "#{spec.version}" }
 
 	# Replace value of source file with your Path
   spec.source_files  = "CustomRoundedFramework/**/*.{swift}"
@@ -35,4 +34,3 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.0'
 
 end
-```
